@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Pokémon</title>
+</head>
+<body>
+    <main>
+        <!-- #game-intro is initially shown on the game start screen -->
+        <img src="./images/logo.png" alt="" class="logo-img" />
+        <div id="game-intro">
+          <br />
+          <button id="start-button">Start Game</button>
+          <p>Use the arrows to control the player!</p>
+          <img src="./images/arrows.png" alt="arrows" class="arrows-img" />
+        </div>
+  
+        <div id="game-container">
+          <div id="game"></div>
+          <div>
+            <h2>Stats</h2>
+            <p>Pokémon seen: <span id="score">0</span></p>
+            <p>Total number of Pokémon: <span id="lives">258</span></p>
+          </div>
+
+        <div id="pokedex">
+        </div>
+  
+        <!-- #game-end is initially hidden using CSS style display: none -->
+        <div id="game-end">
+          <!-- <img src="./images/logo.png" alt="" class="logo-img" /> -->
+          <h1>Game Over</h1>
+          <br />
+          <button id="restart-button">Restart</button>
+        </div>
+      </main>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/pokedex.js"></script>
+</body>
+</html>
