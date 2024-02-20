@@ -28,15 +28,15 @@ body {
   #pokedex {
     display: flex;
     flex-wrap: wrap;
-    max-width: 525px;
+    max-width: 1000px;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 20px;
   }
 
   .cellPokedex {
-    height: 60px;
-    width: 60px;
+    height: 120px;
+    width: 120px;
     border: 1.5px solid black;
   }
 
